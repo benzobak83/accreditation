@@ -1,0 +1,598 @@
+.wrapper-main {}
+
+.content .wrapper-main.accredit-edit-wrapper {
+    max-width: 1062px;
+    width: 1062px;
+
+
+}
+
+.accredit-edit-form {}
+
+.form {}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.accredit-edit-content-wrapper {
+
+    max-width: 595px;
+
+
+    // .accredit-edit-content-wrapper__without-date
+
+    &__without-date {
+        max-width: 465px;
+    }
+}
+
+.accredit-edit {
+
+    // .accredit-edit__inner
+
+    &__inner {}
+
+    // .accredit-edit__title
+
+    &__title {
+        display: flex;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    // .accredit-edit__button-back
+
+    &__button-back {}
+
+    // .accredit-edit__btn-back
+
+    &__btn-back {}
+
+    // .accredit-edit__text
+
+    &__text {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 130%;
+        padding-left: 20px;
+        color: black;
+    }
+}
+
+.back-title {}
+
+.activ {}
+
+.btn-back {
+
+    // .btn-back__img
+
+    &__img {}
+}
+
+.accredit-form-section {}
+
+.auth {
+
+    // .auth__form-div-input
+
+    &__form-div-input {}
+}
+
+.div-input {}
+
+.form-basic-data {
+
+    // .form-basic-data__tour-name
+
+    &__tour-name {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 130%;
+
+    }
+}
+
+.accredit-edit-label {}
+
+.contact {
+
+    // .contact__inner
+    width: 100%;
+    border: 1px solid #f1f1f1;
+    margin-top: 5px;
+
+    &__inner {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px;
+    }
+
+    // .contact__avatar-content
+
+    &__avatar-content {
+        display: flex;
+        align-items: center;
+        width: 300px;
+        position: relative;
+        height: 100%;
+
+        &::after {
+            content: '';
+            position: absolute;
+            height: 80%;
+            width: 1px;
+            right: 0px;
+            border-right: 1px solid #f1f1f1;
+        }
+    }
+
+    // .contact__img
+
+    &__img {
+        border: 1px solid;
+        border-color: #f1f1f1;
+        border-radius: 27px;
+        max-width: 60px;
+        max-height: 60px;
+        width: 60px;
+        height: 60px;
+
+    }
+
+    // .contact__name
+
+    &__name {
+        margin-left: 5px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 130%;
+        color: black;
+    }
+
+    label {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px !important;
+        line-height: 130%;
+    }
+
+    // .contact__button
+
+    &__button {}
+
+    // .contact__btn-edit
+
+    &__btn-edit {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 130%;
+        color: #00573A;
+        padding-right: 20px;
+        cursor: pointer;
+    }
+}
+
+.role {}
+
+.days {
+    width: 592px;
+    max-width: 592px;
+
+    // .days__items-wrapper
+
+    &__items-wrapper {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    // .days__label
+
+    &__label {
+        margin-top: 5px;
+
+    }
+
+    // .days__input
+
+    &__input {
+        display: none;
+    }
+}
+
+.day {
+
+    // .day__wrapper
+
+    &__wrapper {
+        height: 40px;
+        max-height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #f1f1f1;
+        padding: 0px 5px;
+        cursor: pointer;
+        &.active {
+            border: 1px solid #00573A;
+        }
+    }
+
+    // .day__text
+
+    &__text {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 130%;
+        color: #E83125;
+
+
+        // .day__text_active
+
+        &_active {
+            color: #15AA1B;
+        }
+    }
+}
+
+.btn-all-days {
+    height: 40px;
+    max-height: 40px;
+    height: 41px;
+    min-height: 41px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0px 10px;
+    margin-top: 5px;
+    font-family: 'Gilroy';
+    background-color: #00573A;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+
+
+    color: #FFFFFF;
+}
+
+.settings {
+
+    // .settings__buttons
+
+    &__buttons {
+        display: flex;
+        margin-top: 5px;
+    }
+
+    // .settings__btn
+
+    &__btn {
+        cursor: pointer;
+        // .settings__btn_active
+        display: flex;
+        background-color: white;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 14px 70px;
+        gap: 10px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 130%;
+        color: #999999;
+        border: 1px solid #999999;
+        max-width: 150px;
+
+
+        &:first-child {
+            margin-right: 3px;
+        }
+
+        &_active {
+            background: #00573A;
+            color: white;
+            border: none;
+        }
+
+        // .settings__btn_active
+
+
+    }
+}
+
+
+.create-status {
+    display: none;
+
+    &.active {
+        display: block;
+    }
+
+    // .create-status__wrapper
+
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        margin-top: 25px;
+        margin-bottom: 10px;
+    }
+
+    // .create-status__img
+
+    &__img {}
+
+    // .create-status__text
+
+    &__text {
+        cursor: pointer;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 130%;
+        color: #999999;
+        margin-left: 7px;
+
+    }
+}
+
+.number {
+    display: none;
+
+    &.active {
+        display: block;
+    }
+}
+
+.popup {
+
+    // .popup__zones
+
+    &__zones {}
+}
+
+.zones-react {
+    display: none;
+
+    &.active {
+        display: block;
+    }
+}
+
+.zones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 30px;
+    position: relative;
+    max-width: 292px;
+    margin-top: 10px;
+    // .zones__label-item
+
+    &__label-item {
+        max-width: 40px;
+        max-height: 40px;
+        margin-right: 10px;
+        margin-top: 10px;
+
+        &:nth-child(6) {
+            margin-right: 0px;
+        }
+
+        &:nth-child(12) {
+            margin-right: 0px;
+        }
+    }
+
+    // .zones__item-wrapper
+
+    &__item-wrapper {
+        cursor: pointer;
+        width: 40px;
+        height: 40px;
+        background: #999999;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+
+        &.active {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #00573A;
+        }
+
+        &.active>.zones__item {
+            width: 34px;
+            height: 34px;
+            border: 1px solid white;
+            background: #00573A;
+        }
+    }
+
+    input {
+        display: none;
+    }
+
+    // .zones__item
+
+    &__item {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 130%;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    // .zones__item
+
+
+}
+
+.accredit-card {
+
+    width: 370px;
+    height: 649px;
+
+
+    // .accredit-card__inner
+
+    &__inner {
+        margin-top: 141.5px;
+        border: 1px solid #F1F1F1;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    // accrdeit-card__img
+    &__img {
+        width: 256px;
+        max-width: 256px;
+        height: 400px;
+        max-height: 400px;
+    }
+
+    // .accredit-card__title
+
+    &__title {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 130%;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        color: #999999;
+    }
+
+    // .accredit-card__buttons
+
+    &__buttons {
+        
+        margin-bottom: 20px;
+        button {
+            margin-top: 10px;
+            position: relative;
+            font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+position: relative;
+
+        }
+    }
+
+    // .accredit-card__style-btn
+
+    &__style-btn {
+        background-color: white;
+       color: #999999;
+       &::before {
+        content: '';
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        left: 65px;
+        background: url('../../img/ic_palette.svg');
+       }
+       
+        
+    }
+
+    // .accredit-card__print-btn
+
+    &__print-btn {
+        background-color: #F1F1F1;
+        color: #00573A;
+        &::before {
+            content: '';
+            position: absolute;
+            width: 25px;
+            height: 25px;
+            left: 90px;
+            background: url('../../img/ic_print.svg');
+           }
+    }
+
+    // .accredit-card__save-btn
+
+    &__save-btn {
+        
+        color: white;
+        &::before {
+            content: '';
+            position: absolute;
+            width: 25px;
+            height: 25px;
+            left: 80px;
+            background: url('../../img/ic_save.svg');
+           }
+    }
+}
+
+.accrdeit-card {
+
+    // .accrdeit-card__img
+
+    &__img {}
+}
+
+.big-button {}
+
+.popup-new-role {
+    .popup__inner {
+        height: 498px !important;
+    }
+   
+}
+
+@media print {
+    body * {
+      visibility: hidden;
+    }
+    #svg93 * {
+      visibility: visible;
+    }
+    #svg93{
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 600px;
+      height: 900px;
+    }
+  }

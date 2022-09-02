@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="http://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/cropper/2.3.4/cropper.min.css"
+  />
+
+
+    <title>Benzospell</title>
+</head>
+
+<body>
+
+    <div class="main-page">
+        <div class="main-wrapper">
+            <div class="menu">
+                <div class="menu__inner">
+                    <ul class="menu__ul">
+                        <a href="http://localhost:4200/">
+                            <li class="menu__li menu__li_active"> <img src=".././assets/img/ic_home-green.svg"
+                                    class="menu__icon"> </img> <span class="menu__item">Главная</span> </li>
+                        </a>
+                        <a href="http://localhost:4200/accredit.html">
+                            <li class="menu__li"><img src=".././assets/img/ic_galka.svg" class="menu__icon"> </img>
+                                <span class="menu__item">Аккредитация</span></li>
+                        </a>
+                        <a href="http://localhost:4200/">
+                            <li class="menu__li"><img src=".././assets/img/ic_control.svg" class="menu__icon">
+                                </img> <span class="menu__item">Контроль доступа</span></li>
+                        </a>
+                        <a href="http://localhost:4200/manager.html">
+                            <li class="menu__li"><img src=".././assets/img/ic_lock.svg" class="menu__icon"> </img>
+                                <span class="menu__item">Доступ для менеджеров</span></li>
+                        </a>
+                        <a href="http://localhost:4200/roles.html">
+                            <li class="menu__li"><img src=".././assets/img/ic_usercard.svg" class="menu__icon">
+                                </img> <span class="menu__item">Роли</span></li>
+                        </a>
+                        <a href="http://localhost:4200/tournament.html">
+                            <li class="menu__li"><img src=".././assets/img/ic_key.svg" class="menu__icon">
+                                </img>
+                                <span class="menu__item">Турниры</span></li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <div class="content">
+
+                <header class="header">
+                    <h2 class="header__title">Главная</h2>
+                    <div class="header__event">
+                        <span class="header__text">Текущеее событие:</span>
+                        <span class="header__code">BJK
+                            CUP KAZ - GER</span>
+                        <img src=".././assets/img/ic_settings-brown.svg" alt="" class="header__img">
+                    </div>
+                </header>
+
+                <div class="wrapper-main">
+
+                    <section class="main">
+                        <div class="main__inner">
+                            <div class="main__buttons">
+                                <button class="main__btn-contacts big-button"><img
+                                        src=".././assets/img/main/ic_users.svg" alt="" class="big-button__img"> <span
+                                        class="big-button__text">Показать список
+                                        контактов</span></button>
+                                <button class="main__btn-create big-button"><img
+                                        src=".././assets/img/ic_addcontact-white.svg" alt="" class="big-button__img">
+                                    <span class="big-button__text">Создать
+                                        аккредитацию</span></button>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="statistics">
+                        
+                        <div class="statistics__inner">
+                            <div class="statistics__item statistics__item_dark-blue">
+                                <div class="statistics__title">
+                                    <img src="../assets/img/main/ic_users-blue.svg" alt="" class="statistics__img">
+                                    <div class="statistics__name">Контактов</div>
+                                </div>
+                                <div class="statistics__count">2123</div>
+                            </div>
+                            <div class="statistics__item statistics__item_blue">
+                                <div class="statistics__title">
+                                    <img src="../assets/img/main/ic_player.svg" alt="" class="statistics__img">
+                                    <div class="statistics__name">Игроков</div>
+                                </div>
+                                <div class="statistics__count">201</div>
+                            </div>
+                            <div class="statistics__item statistics__item_green">
+                                <div class="statistics__title">
+                                    <img src="../assets/img/main/ic_account.svg" alt="" class="statistics__img">
+                                    <div class="statistics__name">Аккаунтов</div>
+                                </div>
+                                <div class="statistics__count">2</div>
+                            </div>
+                            <div class="statistics__item statistics__item_orange">
+                                <div class="statistics__title">
+                                    <img src="../assets/img/main/ic_home.svg" alt="" class="statistics__img">
+                                    <div class="statistics__name">Без аккредитации</div>
+                                </div>
+                                <div class="statistics__count">1767</div>
+                            </div>
+                        </div>
+                    </section>
+                    <h2 class=" table-title">Всего изготовлено</h2>
+                    <table class="table table-search">
+                        <thead>
+                            <tr>
+                                <th class="table__th">Роль</th>
+                                <th class="table__th">Число</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="table__td">KTF</td>
+                                <td class="table__td">124</td>
+                            </tr>
+                            <tr>
+                                <td class="table__td">Players</td>
+                                <td class="table__td">109</td>
+                            </tr>
+                            <tr>
+                                <td class="table__td">Staff</td>
+                                <td class="table__td">40</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="popup popup-edit-role popup-accredit  ">
+        <div class="popup__inner ">
+            <img src=".././assets/img/ic_close-modal.svg" alt="" class="popup__close">
+            <h3 class="popup-zone__title">Новая аккредитация</h3>
+
+            <form action="" class="auth__form form form-accredit">
+                <div class="form__avatar avatar">
+                    <div class="img-result empty"><img src="../assets/img/main/avatar.png" alt="" class="avatar__img cropped">
+                        <img src="../assets/img/main/ic_contact.svg" class="temporary" alt=""></div>
+                   
+                <div class="avatar__upload-wrapper">
+                    <label for="file-input" class="avatar__upload-label">
+                        <input type="file" name="img" id="file-input" class="hidden active">
+                        <div class="avatar__upload-text" >Загрузить фото </div>
+                    </label>
+                    <div class="delete-photo ">Удалить фото</div>
+                </div>
+            </div>
+                <div class="auth__form-div-input div-input">
+                  <label for="name" class="form-basic-data__tour-name"
+                    >ФИО</label
+                  >
+                  <input type="text" name="name" id="name" />
+                </div>
+                <div class="auth__form-div-input div-input">
+                    <label for="email" class="form-basic-data__tour-name"
+                      >Электронная почта</label
+                    >
+                    <input type="email" name="email" id="email" />
+                  </div>
+                  <div class="form-accredit__sex">
+                    <label for="x" class="form-basic-data__tour-name label-sex-title">Пол</label>
+                     <div class="buttons-sex">
+                      <label for="man" class="form-basic-data__tour-name label-sex">
+                        <input type="radio" name="sex" id="man" class="hidden" value="man">
+                      <div class="big-button man-button sex-button ">Мужчина</div>
+                   
+                      </label>
+                      
+                      <label for="woman" class="form-basic-data__tour-name label-sex">
+                        <input type="radio" name="sex" id="woman" class="hidden" value="woman">
+                        <div class="big-button woman-button sex-button">Женщина</div>
+                      </label>
+                    </div>
+                    
+                    
+                  </div>
+               
+           
+                
+                <button class="auth__submit big-button">Сохранить</button>
+            
+            </form>
+        </div>
+    </div>
+
+    <div class="popup popup-edit-role popup-edit ">
+        <div class="popup__inner ">
+            <img src=".././assets/img/ic_close-modal.svg" alt="" class="popup__close">
+            <h3 class="popup-edit__title popup-zone__title">Фотография</h3>
+
+            <div class="result popup-edit__img"></div>
+           
+                <div class="options">
+                <button class="popup-edit__repick big-button">Выбрать другое фото</button>
+                <input type="number" class="img-w" value="300" min="100" max="1200" style="display: none;" />
+                <button class="popup-edit__save big-button save">Сохранить</button>
+            </div>
+            
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/0.8.1/cropper.min.js"></script>
+</body>
+
+</html>

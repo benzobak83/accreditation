@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="http://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/cropper/2.3.4/cropper.min.css"
+  />
+
+</head>
+
+<body>
+    <div class="manager">
+        <div class="main-wrapper">
+            <div class="menu">
+                <div class="menu__inner">
+                    <ul class="menu__ul">
+                        <a href="http://localhost:4200/">
+                            <li class="menu__li"> <img src=".././assets/img/ic_home-brown.svg" class="menu__icon">
+                                </img> <span class="menu__item">Главная</span> </li>
+                        </a>
+                        <a href="http://localhost:4200/accredit.html">
+                            <li class="menu__li"><img src=".././assets/img/ic_accredit-green.svg" class="menu__icon"> </img>
+                                <span class="menu__item menu__li_active">Аккредитация</span></li>
+                        </a>
+                        <a href="http://localhost:4200/">
+                            <li class="menu__li"><img src=".././assets/img/ic_control.svg" class="menu__icon"> </img>
+                                <span class="menu__item">Контроль доступа</span></li>
+                        </a>
+                        <a href="http://localhost:4200/manager.html">
+                            <li class="menu__li"><img src=".././assets/img/ic_lock.svg" class="menu__icon"> </img>
+                                <span class="menu__item ">Доступ для менеджеров</span></li>
+                        </a>
+                        <a href="http://localhost:4200/roles.html">
+                            <li class="menu__li"><img src=".././assets/img/ic_usercard.svg" class="menu__icon"> </img>
+                                <span class="menu__item">Роли</span></li>
+                        </a>
+                        <a href="http://localhost:4200/tournament.html">
+                            <li class="menu__li"><img src=".././assets/img/ic_key.svg" class="menu__icon"> </img>
+                                <span class="menu__item">Турниры</span></li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <div class="content">
+
+                <header class="header">
+                    <h2 class="header__title">Аккредитация</h2>
+                    <div class="header__event">
+                        <span class="header__text">Текущеее событие:</span>
+                        <span class="header__code">BJK
+                            CUP KAZ - GER</span>
+                        <img src=".././assets/img/ic_settings-brown.svg" alt="" class="header__img">
+                    </div>
+                </header>
+
+                <div class="wrapper-main">
+
+                    <div class="main">
+
+
+                        <section class="new-tournament">
+                            <div class="new-tournament__inner">
+
+
+                                <div class="new-tournament__button-create">
+                                    <a href="http://localhost:4200/accredit/edit.html"><button class="new-tournament__btn-create big-button manager-btn"><img
+                                            src=".././assets/img/ic_addcontact-white.svg" alt=""
+                                            class="big-button__img manager-big-btn-img"> <span
+                                            class="big-button__text">Создать аккредитацию</span></button></a>
+                                </div>
+                            </div>
+                        </section>
+
+
+                        <section class="tournament-search active">
+                            <div class="tournament-search__inner">
+                                <form action="" class="form-search">
+                                    <input type="text" class="form-search__search" placeholder="Поиск турнира">
+                                    <button class="form-search__btn"><img src=".././assets/img/ic_search-white.svg"
+                                            alt="">Найти</button>
+                                </form>
+                                <div class="tournament-search__table-wrapper">
+                                    <table class="tournament-search__table table-search">
+                                        <thead>
+                                            <tr>
+                                                <th class="table-th"><span class="table-search__th">Имя</span> <img
+                                                        src=".././assets/img/ic_arrow-up-green.svg" class="table-img"
+                                                        alt=""></th>
+                                                <th class="table-th"><span class="table-search__th">Даты
+                                                        регистрации</span> <img
+                                                        src=".././assets/img/ic_arrow-bottom-green.svg"
+                                                        class="table-img down" alt=""></th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="td-name"><img src="../assets/img/dude.svg" alt="" class="img-dude"> <span class="table-search__td">Аванов Иван Иванович</span></td>
+                                                <td><span class="table-search__td">17 Сент 2021 • 13:29</span></td>
+                                                <td>
+                                                    <div class="table-search__img-wrapper"><img
+                                                            src=".././assets/img/ic_edit-green.svg" alt="" id="ic_edit">
+                                                        <img src=".././assets/img/ic_delete-red.svg" alt=""
+                                                            id="ic_delete"></div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td-name"><img src="../assets/img/dude.svg" alt="" class="img-dude"> <span class="table-search__td">Биванов Иван Петрович</span></td>
+                                                <td><span class="table-search__td">12 Сент 2021 • 12:11</span></td>
+                                                <td>
+                                                    <div class="table-search__img-wrapper"><img
+                                                            src=".././assets/img/ic_edit-green.svg" alt="" id="ic_edit">
+                                                        <img src=".././assets/img/ic_delete-red.svg" alt=""
+                                                            id="ic_delete"></div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td-name"><img src="../assets/img/dude.svg" alt="" class="img-dude"> <span class="table-search__td">Виванов Иван Сергеевич</span></td>
+                                                <td><span class="table-search__td">15 Сент 2021 • 11:42</span></td>
+                                                <td>
+                                                    <div class="table-search__img-wrapper"><img
+                                                            src=".././assets/img/ic_edit-green.svg" alt="" id="ic_edit">
+                                                        <img src=".././assets/img/ic_delete-red.svg" alt=""
+                                                            id="ic_delete"></div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td-name"><img src="../assets/img/dude.svg" alt="" class="img-dude"> <span class="table-search__td">Гиванов Иван Александрович</span>
+                                                </td>
+                                                <td><span class="table-search__td">12 Сент 2021 • 21:14</span></td>
+                                                <td>
+                                                    <div class="table-search__img-wrapper"><img
+                                                            src=".././assets/img/ic_edit-green.svg" alt="" id="ic_edit">
+                                                        <img src=".././assets/img/ic_delete-red.svg" alt=""
+                                                            id="ic_delete"></div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td-name"><img src="../assets/img/dude.svg" alt="" class="img-dude"> <span class="table-search__td">Диванов Иван Сергеевич</span></td>
+                                                <td><span class="table-search__td">11 Сент 2021 • 12:33</span></td>
+                                                <td>
+                                                    <div class="table-search__img-wrapper"><img
+                                                            src=".././assets/img/ic_edit-green.svg" alt="" id="ic_edit">
+                                                        <img src=".././assets/img/ic_delete-red.svg" alt=""
+                                                            id="ic_delete"></div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td-name"><img src="../assets/img/dude.svg" alt="" class="img-dude"> <span class="table-search__td">Еванов Иван Валерьевич</span></td>
+                                                <td><span class="table-search__td">10 Сент 2021 • 09:01</span></td>
+                                                <td>
+                                                    <div class="table-search__img-wrapper"><img
+                                                            src=".././assets/img/ic_edit-green.svg" alt="" id="ic_edit">
+                                                        <img src=".././assets/img/ic_delete-red.svg" alt=""
+                                                            id="ic_delete"></div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td-name"><img src="../assets/img/dude.svg" alt="" class="img-dude"> <span class="table-search__td">Зеванов Иван Семенович</span></td>
+                                                <td><span class="table-search__td">09 Сент 2021 • 08:15</span></td>
+                                                <td>
+                                                    <div class="table-search__img-wrapper"><img
+                                                            src=".././assets/img/ic_edit-green.svg" alt="" id="ic_edit">
+                                                        <img src=".././assets/img/ic_delete-red.svg" alt=""
+                                                            id="ic_delete"></div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td-name"><img src="../assets/img/dude.svg" alt="" class="img-dude"> <span class="table-search__td"><span class="table-search__td">Еванов Иван Валерьевич</span></td>
+                                                <td><span class="table-search__td">10 Сент 2021 • 09:01</span></td>
+                                                <td>
+                                                    <div class="table-search__img-wrapper"><img
+                                                            src=".././assets/img/ic_edit-green.svg" alt="" id="ic_edit">
+                                                        <img src=".././assets/img/ic_delete-red.svg" alt=""
+                                                            id="ic_delete"></div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td-name"><img src="../assets/img/dude.svg" alt="" class="img-dude"> <span class="table-search__td"><span class="table-search__td">Еванов Иван Валерьевич</span></td>
+                                                <td><span class="table-search__td">10 Сент 2021 • 09:01</span></td>
+                                                <td>
+                                                    <div class="table-search__img-wrapper"><img
+                                                            src=".././assets/img/ic_edit-green.svg" alt="" id="ic_edit">
+                                                        <img src=".././assets/img/ic_delete-red.svg" alt=""
+                                                            id="ic_delete"></div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td-name"><img src="../assets/img/dude.svg" alt="" class="img-dude"> <span class="table-search__td"><span class="table-search__td">Еванов Иван Валерьевич</span></td>
+                                                <td><span class="table-search__td">10 Сент 2021 • 09:01</span></td>
+                                                <td>
+                                                    <div class="table-search__img-wrapper"><img
+                                                            src=".././assets/img/ic_edit-green.svg" alt="" id="ic_edit">
+                                                        <img src=".././assets/img/ic_delete-red.svg" alt=""
+                                                            id="ic_delete"></div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td-name"><img src="../assets/img/dude.svg" alt="" class="img-dude"> <span class="table-search__td"><span class="table-search__td">Еванов Иван Валерьевич</span></td>
+                                                <td><span class="table-search__td">10 Сент 2021 • 09:01</span></td>
+                                                <td>
+                                                    <div class="table-search__img-wrapper"><img
+                                                            src=".././assets/img/ic_edit-green.svg" alt="" id="ic_edit">
+                                                        <img src=".././assets/img/ic_delete-red.svg" alt=""
+                                                            id="ic_delete"></div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td-name"><img src="../assets/img/dude.svg" alt="" class="img-dude"> <span class="table-search__td"><span class="table-search__td">Еванов Иван Валерьевич</span></td>
+                                                <td><span class="table-search__td">10 Сент 2021 • 09:01</span></td>
+                                                <td>
+                                                    <div class="table-search__img-wrapper"><img
+                                                            src=".././assets/img/ic_edit-green.svg" alt="" id="ic_edit">
+                                                        <img src=".././assets/img/ic_delete-red.svg" alt=""
+                                                            id="ic_delete"></div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td-name"><img src="../assets/img/dude.svg" alt="" class="img-dude"> <span class="table-search__td"><span class="table-search__td">Еванов Иван Валерьевич</span></td>
+                                                <td><span class="table-search__td">10 Сент 2021 • 09:01</span></td>
+                                                <td>
+                                                    <div class="table-search__img-wrapper"><img
+                                                            src=".././assets/img/ic_edit-green.svg" alt="" id="ic_edit">
+                                                        <img src=".././assets/img/ic_delete-red.svg" alt=""
+                                                            id="ic_delete"></div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td-name"><img src="../assets/img/dude.svg" alt="" class="img-dude"> <span class="table-search__td"><span class="table-search__td">Еванов Иван Валерьевич</span></td>
+                                                <td><span class="table-search__td">10 Сент 2021 • 09:01</span></td>
+                                                <td>
+                                                    <div class="table-search__img-wrapper"><img
+                                                            src=".././assets/img/ic_edit-green.svg" alt="" id="ic_edit">
+                                                        <img src=".././assets/img/ic_delete-red.svg" alt=""
+                                                            id="ic_delete"></div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td-name"><img src="../assets/img/dude.svg" alt="" class="img-dude"> <span class="table-search__td"><span class="table-search__td">Еванов Иван Валерьевич</span></td>
+                                                <td><span class="table-search__td">10 Сент 2021 • 09:01</span></td>
+                                                <td>
+                                                    <div class="table-search__img-wrapper"><img
+                                                            src=".././assets/img/ic_edit-green.svg" alt="" id="ic_edit">
+                                                        <img src=".././assets/img/ic_delete-red.svg" alt=""
+                                                            id="ic_delete"></div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="popup popup-edit-role popup-accredit  ">
+            <div class="popup__inner ">
+                <img src=".././assets/img/ic_close-modal.svg" alt="" class="popup__close">
+                <h3 class="popup-zone__title">Новая аккредитация</h3>
+    
+                <form action="" class="auth__form form form-accredit">
+                    <div class="form__avatar avatar">
+                        <div class="img-result"><img src="../assets/img/dude.svg" alt="" class="avatar__img cropped">
+                            <img src="../assets/img/main/ic_contact.svg" class="temporary" alt=""></div>
+                       
+                    <div class="avatar__upload-wrapper ">
+                        <label for="file-input" class="avatar__upload-label">
+                            <input type="file" name="img" id="file-input" class="hidden active">
+                            <div class="avatar__upload-text uploaded" >Изменить фото </div>
+                        </label>
+                        <div class="delete-photo active">Удалить фото</div>
+                    </div>
+                </div>
+                    <div class="auth__form-div-input div-input">
+                      <label for="name" class="form-basic-data__tour-name"
+                        >ФИО</label
+                      >
+                      <input type="text" name="name" id="name" />
+                    </div>
+                    <div class="auth__form-div-input div-input">
+                        <label for="email" class="form-basic-data__tour-name"
+                          >Электронная почта</label
+                        >
+                        <input type="email" name="email" id="email" />
+                      </div>
+                      <div class="form-accredit__sex">
+                        <label for="x" class="form-basic-data__tour-name label-sex-title">Пол</label>
+                         <div class="buttons-sex">
+                          <label for="man" class="form-basic-data__tour-name label-sex">
+                            <input type="radio" name="sex" id="man" class="hidden" value="man">
+                          <div class="big-button man-button sex-button">Мужчина</div>
+                       
+                          </label>
+                          
+                          <label for="woman" class="form-basic-data__tour-name label-sex">
+                            <input type="radio" name="sex" id="woman" class="hidden" value="woman">
+                            <div class="big-button woman-button sex-button">Женщина</div>
+                          </label>
+                        </div>
+                        
+                        
+                      </div>
+                   
+               
+                    
+                    <button class="auth__submit big-button">Сохранить</button>
+                
+                </form>
+            </div>
+        </div>
+    
+        <div class="popup popup-edit-role popup-edit ">
+            <div class="popup__inner ">
+                <img src=".././assets/img/ic_close-modal.svg" alt="" class="popup__close">
+                <h3 class="popup-edit__title popup-zone__title">Фотография</h3>
+    
+                <div class="result popup-edit__img"></div>
+               
+                    <div class="options">
+                    <button class="popup-edit__repick big-button">Выбрать другое фото</button>
+                    <input type="number" class="img-w" value="300" min="100" max="1200" style="display: none;" />
+                    <button class="popup-edit__save big-button save">Сохранить</button>
+                </div>
+                
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/0.8.1/cropper.min.js"></script>
+    
+
+</body>
+
+</html>

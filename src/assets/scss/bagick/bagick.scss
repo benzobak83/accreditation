@@ -1,0 +1,167 @@
+
+.bagick-wrapper {
+    max-width: 640px;
+ 
+    margin: 0 auto;
+}
+.bagick-block {
+    margin-top: 20px;
+    display: block;
+    border-bottom: 1px solid #f1f1f1;
+    padding-bottom: 10px;
+}
+.bagick {
+    width: 100%;
+  
+		// .bagick__inner
+
+		&__inner {
+            width: 100%;
+            padding: 15px 20px;
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
+           
+		}
+        &__info {
+            margin-top: 20px;
+        }
+
+       
+
+		// .bagick__image
+
+		&__image {
+            text-align: center;
+            
+		}
+
+		// .bagick__img
+
+		&__img {
+            height: 250px;
+            width: 220px;
+            border: 1px solid #f1f1f1;
+		}
+
+		// .bagick__name
+
+		&__name {
+		}
+
+		// .bagick__name-title
+
+		&__name-title {
+		}
+
+		// .bagick__name-value
+
+		&__name-value {
+		}
+
+		// .bagick__date
+
+		&__date {
+		}
+
+		// .bagick__date-title
+
+		&__date-title {
+		}
+
+		// .bagick__date-value
+
+		&__date-value {
+		}
+
+		// .bagick__color
+
+		&__color {
+            display: flex;
+            align-items: center;
+		}
+
+		// .bagick__color-title
+
+		&__color-title {
+            margin-right: 15px;
+		}
+
+		// .bagick__color-value
+
+		&__color-value {
+            max-width: 34px;
+            max-height: 34px;
+            width: 34px;
+            height: 34px;
+            background-color: rgb(72, 72, 231);
+		}
+
+		// .bagick__zones
+
+		&__zones {
+		}
+
+		// .bagick__zones-title
+
+		&__zones-title {
+		}
+
+		// .bagick__zones-wrapper
+
+		&__zones-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            
+		}
+
+        &__zones-item {
+            width: 40px;
+            height: 40px;
+            max-width: 40px;
+            max-height: 40px;
+            background: #00573A;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 6px;
+           margin-top: 6px;
+           
+            
+        }
+
+		// .bagick__zones-value
+
+		&__zones-value {
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 34px;
+            height: 34px;
+           padding: 0px;
+           margin-left: 0px;
+            border: 1px solid white;
+            background-color: #00573A;
+            color: white;
+
+		}
+}
+.span-title {
+    font-family: 'Gilroy';
+    font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 130%;
+&:not(:first-child) {
+    margin-top: 105px;
+}
+}
+.span-value {
+    font-family: 'Gilroy';
+    font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 130%;
+margin-top: 5px;
+}

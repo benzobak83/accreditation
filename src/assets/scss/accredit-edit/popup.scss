@@ -1,0 +1,120 @@
+
+.popup-style {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+    visibility: hidden;
+    opacity: 0;
+   
+    transition: all 0.4s;
+    &.active {
+        visibility: visible;
+        opacity: 1;
+    }
+    .popup__inner {
+        width: 480px;
+        height: 667px;
+                background-color: white;
+                margin: 0 auto;
+                position: relative;
+                top: 50%;
+                transform: translate(0, -50%);
+                padding: 0px 20px;
+                box-sizing: border-box;
+    }
+    .popup__close {
+        cursor: pointer;
+        position: absolute;
+        right: 24px;
+        top: 24px;
+    }
+}
+.active {
+}
+.popup-zone {
+
+    // .popup-zone__title
+
+    &__title {
+    }
+}
+.upload-design {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    
+    cursor: pointer;
+    // .upload-design__img
+
+    &__img {
+    }
+
+    // .upload-design__text
+
+    &__text {
+        font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 130%;
+color: #00573A;
+white-space: nowrap;
+margin-left: 8px;
+    }
+    input {
+        display: none;
+    }
+}
+.cards-wrapper {
+    width: 100%;
+    height: 100%;
+    max-height: 480px;
+    overflow-y: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    
+}
+.cards {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+    // .cards__content
+
+    &__content {
+        width: 31%;
+        padding-bottom: 2px;
+        border: 1px solid #f1f1f1;
+        margin-bottom: 5px;
+        padding: 10px 5px;
+        
+        box-sizing: border-box;
+        &.active {
+            border: 1px solid #00573A;
+        }
+    }
+
+    // .cards__img
+
+    &__img {
+        width: 100%;
+        border: 1px solid transparent;
+       
+       
+    }
+    &__input {
+        display: none;
+    }
+    &-label {
+        width: 100%;
+        height: 100%;
+    }
+}
+.big-button {
+    margin: 0 auto;
+}

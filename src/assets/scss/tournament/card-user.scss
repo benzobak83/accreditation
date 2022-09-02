@@ -1,0 +1,289 @@
+.tournament {
+  .card-user {
+    width: 100%;
+    display: none;
+    &.active {
+      display: block;
+    }
+    // .card-user__inner
+    &__inner {
+      width: 100%;
+    }
+
+    // .card-user__title
+
+    &__title {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 50px;
+      background: #F1F1F1;
+      border-bottom: 1px solid #F1F1F1;
+      margin-top: 20px;
+      margin-bottom: 0px;
+    }
+
+    // .card-user__text
+
+    &__text {
+      padding-left: 15px;
+      font-family: "Gilroy";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 130%;
+    }
+
+    // .card-user__delete
+
+    &__delete {
+      padding-right: 15px;
+      font-family: "Gilroy";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 130%;
+      cursor: pointer;
+      color: #e83125;
+    }
+
+    // .card-user__content
+
+    &__content {
+      padding: 0px 20px;
+      display: flex;
+      justify-content: space-between;
+      border: 1px solid #F1F1F1;
+      padding-top: 20px;
+    }
+
+    // .card-user__card
+
+    &__card {
+
+      min-width: 222px;
+      height: 300px;
+      margin-left: -11px;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      overflow: hidden;
+   
+    
+      .card__content {
+        height: 80%;
+       .card__title {
+        margin: 0 auto;
+        font-size: 14px;
+        color: white;
+       }
+       .card__img-profile-wrapper {
+        width: 80px;
+        height: 100px;
+        min-width: 80px;
+        min-height: 100px;
+        
+        background-color: green;
+       
+        .card__img-profile {
+          
+        }
+       }
+       .card__main-content {
+        display: flex;
+        justify-content: space-between;
+       }
+      }
+    }
+
+    // .card-user__settings
+
+    &__settings {
+      flex: 0 1 100%;
+
+    }
+  }
+
+  .settings {
+    width: 100%;
+    // .settings__inner
+
+    &__inner {
+      display: flex;
+      flex-direction: column;
+    }
+
+    // .settings__buttons
+
+    &__buttons {
+      display: flex;
+    }
+
+    // .settings__btn
+
+    &__btn {
+      cursor: pointer;
+      // .settings__btn_active
+      display: flex;
+      background-color: white;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 14px 70px;
+      gap: 10px;
+      font-family: 'Gilroy';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 130%;
+      color: #999999;
+      border: 1px solid #999999;
+      ;
+
+      &:first-child {
+        margin-right: 3px;
+      }
+
+      &_active {
+        background: #00573A;
+        color: white;
+        border: none;
+      }
+    }
+
+    // .settings__zone
+
+    &__zone {
+      margin-top: 10px;
+    }
+
+    // .settings__zone-text
+
+    &__zone-text {
+      font-family: 'Gilroy';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 130%;
+      color: #999999;
+    }
+
+    // .settings__zone-number
+
+    &__zone-number {
+      display: flex;
+      width: 600px;
+      margin-top: 12px;
+    }
+
+    // .settings__zone-number-wrapper
+
+    &__zone-number-wrapper {
+      width: 40px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 10px;
+      background: #999999;
+      
+      &_active {
+        background: #00573A;
+        .settings__zone-number-item {
+          border: 0.5px solid #FFFFFF;
+          background: #00573A;
+        }
+      }
+    }
+
+    // .settings__zone-number-item
+
+    &__zone-number-item {
+      width: 34px;
+      height: 34px;
+      cursor: pointer;
+      border: none;
+          background: #999999;
+      font-family: 'Gilroy';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 130%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+    }
+
+    // .settings__create-zone
+
+    &__create-zone {
+      display: flex;
+      align-items: center;
+      margin-top: 25px;
+    }
+
+    // .settings__create-zone-img
+
+    &__create-zone-img {}
+
+    // .settings__create-zone-text
+
+    &__create-zone-text {
+      cursor: pointer;
+      font-family: 'Gilroy';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 130%;
+      color: #00573A;
+      margin-left: 7px;
+    }
+  }
+
+  .card-user {
+
+    // .card-user__add-button
+
+    .card-user__add-button {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      
+      margin-top: 25px;
+      margin-bottom: 45px;
+      img {
+        margin-right: 7px;
+       
+      }
+    }
+
+    // .card-user__add-btn
+
+    .card-user__add-btn {
+      cursor: pointer;
+      width: 290px;
+      height: 50px;
+      margin: 0 auto;
+      border: none;
+      background-color: #00573A;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+  
+
+    // .card-user__btn-text
+
+    .card-user__btn-text {
+      font-family: 'Gilroy';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 130%;
+      color: white;
+    }
+  }
+
+}

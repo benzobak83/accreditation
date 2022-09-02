@@ -1,0 +1,141 @@
+.tournament-search {
+    width: 100%;
+    display: none;
+    // .tournament-search__inner
+    &.active {
+        display: block;
+    }
+    &__inner {
+      margin-top: 40px;
+      
+    }
+
+    // .tournament-search__table-wrapper
+
+    &__table-wrapper {
+    }
+
+    // .tournament-search__table
+
+    &__table {
+    }
+}
+.form-search {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+    // .form-search__search
+
+    &__search {
+        font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: black;
+width: 88%;
+height: 50px;
+box-sizing: border-box;
+padding: 9px 7px 9px 7px;
+border: 1px solid;
+border-color: #F1F1F1;
+&:focus {
+    
+}
+    }
+
+    // .form-search__btn
+
+    &__btn {
+        margin-left: 30px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+        height: 50px;
+        padding: 13px 50px;
+        box-sizing: border-box;
+background: #00573A;
+color: white;
+img {
+    margin-right: 5px;
+}
+
+    }
+}
+.table-search {
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 25px;
+    border: 1px solid #F1F1F1;
+   
+    // .table-search__th
+
+    th {
+        text-align: left;
+        align-items: center;
+        justify-content: flex-start;
+        padding-left: 20px;
+        border-bottom: 1px solid #F1F1F1;
+        height: 40px;
+        border-left: 1px solid #F1F1F1;
+        font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 130%;
+color: black;
+cursor: pointer;
+        img {
+            position: relative;
+            top: 6px;
+        }
+    }
+
+    // .table-search__td
+   
+    td {
+        padding: 5px 20px 5px 20px;
+        border-bottom: 1px solid #F1F1F1;
+        font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 130%;
+max-width: 500px;
+
+vertical-align: middle;
+
+
+        &:not(:last-child) {
+            border-right: 1px solid #F1F1F1;;
+        }
+    }
+
+    // .table-search__img-wrapper
+
+    &__img-wrapper {
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        width: 100%;
+        margin-left: -5px;
+        padding: 3px 3px 3px 3px;
+        box-sizing: border-box;
+        img {
+
+            background-color: #F1F1F1;
+            padding: 4px;
+            &:not(:last-child) {
+                margin-right: 5px;
+            }
+        }
+    }
+}
+table {
+    margin-bottom: 40px;
+}

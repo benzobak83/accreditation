@@ -1,0 +1,27 @@
+.table-search__td-code {
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 130%;
+color: #999999;
+margin-left: 8px;
+box-sizing: border-box;
+}
+.td-color {
+   
+    width: 24px;
+}
+
+.table-search__td-color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    background-color: red;
+}
+
+.table-search__th.color-th {
+   padding-left: 14px;
+}

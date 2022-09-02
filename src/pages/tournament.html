@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="http://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
+
+
+
+  <title>Benzospell</title>
+</head>
+
+<body>
+  <div id="root">
+    <div class="tournament">
+      <div class="main-wrapper">
+        <div class="menu">
+          <div class="menu__inner">
+            <ul class="menu__ul">
+              <a href="http://localhost:4200/">
+                <li class="menu__li"> <img src=".././assets/img/ic_home-brown.svg" class="menu__icon"> </img> <span
+                    class="menu__item">Главная</span> </li>
+              </a>
+              <a href="http://localhost:4200/accredit.html">
+                <li class="menu__li"><img src=".././assets/img/ic_galka.svg" class="menu__icon"> </img> <span
+                    class="menu__item">Аккредитация</span></li>
+              </a>
+              <a href="http://localhost:4200/">
+                <li class="menu__li"><img src=".././assets/img/ic_control.svg" class="menu__icon"> </img> <span
+                    class="menu__item">Контроль доступа</span></li>
+              </a>
+              <a href="http://localhost:4200/manager.html">
+                <li class="menu__li"><img src=".././assets/img/ic_lock.svg" class="menu__icon"> </img> <span
+                    class="menu__item">Доступ для менеджеров</span></li>
+              </a>
+              <a href="http://localhost:4200/roles.html">
+                <li class="menu__li"><img src=".././assets/img/ic_usercard.svg" class="menu__icon"> </img> <span
+                    class="menu__item">Роли</span></li>
+              </a>
+              <a href="http://localhost:4200/tournament.html">
+                <li class="menu__li menu__li_active"><img src=".././assets/img/ic_key-green.svg" class="menu__icon">
+                  </img>
+                  <span class="menu__item">Турниры</span></li>
+              </a>
+            </ul>
+          </div>
+        </div>
+        <div class="content">
+
+          <header class="header">
+            <h2 class="header__title">Турниры</h2>
+            <div class="header__event">
+              <span class="header__text">Текущеее событие:</span>
+              <span class="header__code">BJK
+                CUP KAZ - GER</span>
+              <img src=".././assets/img/ic_settings-brown.svg" alt="" class="header__img">
+            </div>
+          </header>
+
+          <div class="wrapper-main">
+
+            <div class="main">
+
+
+              <section class="new-tournament">
+                <div class="new-tournament__inner">
+
+                  <div class="new-tournament__title back-title activ">
+                    <div class="new-tournament__button-back ">
+                      <button class="new-tournament__btn-back btn-back"><img
+                          src=".././assets/img/ic_arrow-left-green.svg" alt="" class="btn-back__img"></button>
+                    </div>
+                    <h4 class="new-tournament__text">Новый турнир</h4>
+                  </div>
+                  <div class="new-tournament__button-create">
+                    <button class="new-tournament__btn-create big-button"><img src=".././assets/img/ic_key-white.svg"
+                        alt="" class="big-button__img"> <span class="big-button__text">Создать турнир</span></button>
+                  </div>
+                </div>
+              </section>
+
+              <section class="basic-data activ">
+                <div class="basic-data__title"><img class="basic-data__title-img" src=".././assets/img/ic_key-green.svg"
+                    alt="">
+                  <span class="basic-data__text"> Основные данные</span></div>
+                <form action="" class="form-basic-data">
+                  <div class="form-basic-data__div-name div-input">
+                    <label for="tour-name" class="form-basic-data__tour-name">Название турнира</label>
+                    <input type="text" placeholder="Введите название" name="tour-name" id="tour-name">
+                  </div>
+                  <div class="form-basic-data__div-date div-input">
+                    <label for="tour-date" class="form-basic-data__tour-date">Название турнира</label>
+                    <input type="text" placeholder="DD/MM/YYYY" name="tour-date" id="tour-date">
+                  </div>
+                </form>
+              </section>
+
+              <section class="tournament-search active">
+                <div class="tournament-search__inner">
+                  <form action="" class="form-search">
+                    <input type="text" class="form-search__search" placeholder="Поиск турнира">
+                    <button class="form-search__btn"><img src=".././assets/img/ic_search-white.svg"
+                        class="table-img down" alt="">Найти</button>
+                  </form>
+                  <div class="tournament-search__table-wrapper">
+                    <table class="tournament-search__table table-search">
+                      <thead>
+                        <tr>
+                          <th class="table-th"><span class="table-search__th">Название</span> <img
+                              src=".././assets/img/ic_arrow-bottom-green.svg" alt=""></th>
+                          <th><span class="table-search__th">Даты проведения</span> </th>
+                          <th></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td><span class="table-search__td">BJK CUP KAZ - GER</span></td>
+                          <td><span class="table-search__td">01/08/2022 - 17/08/2022</span></td>
+                          <td>
+                            <div class="table-search__img-wrapper"><img src=".././assets/img/ic_edit-green.svg" alt=""
+                                id="ic_edit">
+                              <img src=".././assets/img/ic_delete-red.svg" alt="" id="ic_delete"></div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><span class="table-search__td">BJK CUP KAZ - GER</span></td>
+                          <td><span class="table-search__td">01/08/2022 - 17/08/2022</span></td>
+                          <td>
+                            <div class="table-search__img-wrapper"><img src=".././assets/img/ic_edit-green.svg" alt=""
+                                id="ic_edit">
+                              <img src=".././assets/img/ic_delete-red.svg" alt="" id="ic_delete"></div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><span class="table-search__td">BJK CUP KAZ - GER</span></td>
+                          <td><span class="table-search__td">01/08/2022 - 17/08/2022</span></td>
+                          <td>
+                            <div class="table-search__img-wrapper"><img src=".././assets/img/ic_edit-green.svg" alt=""
+                                id="ic_edit">
+                              <img src=".././assets/img/ic_delete-red.svg" alt="" id="ic_delete"></div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><span class="table-search__td">BJK CUP KAZ - GER</span></td>
+                          <td><span class="table-search__td">01/08/2022 - 17/08/2022</span></td>
+                          <td>
+                            <div class="table-search__img-wrapper"><img src=".././assets/img/ic_edit-green.svg" alt=""
+                                id="ic_edit">
+                              <img src=".././assets/img/ic_delete-red.svg" alt="" id="ic_delete"></div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><span class="table-search__td">BJK CUP KAZ - GER</span></td>
+                          <td><span class="table-search__td">01/08/2022 - 17/08/2022</span></td>
+                          <td>
+                            <div class="table-search__img-wrapper"><img src=".././assets/img/ic_edit-green.svg" alt=""
+                                id="ic_edit">
+                              <img src=".././assets/img/ic_delete-red.svg" alt="" id="ic_delete"></div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td><span class="table-search__td">BJK CUP KAZ - GER</span></td>
+                          <td><span class="table-search__td">01/08/2022 - 17/08/2022</span></td>
+                          <td>
+                            <div class="table-search__img-wrapper"><img src=".././assets/img/ic_edit-green.svg" alt=""
+                                id="ic_edit">
+                              <img src=".././assets/img/ic_delete-red.svg" alt="" id="ic_delete"></div>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </section>
+
+              <section class="card-user activ">
+                <div class="card-user__inner-app" id="section-card">
+
+                </div>
+
+
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="popup activ">
+    <div class="popup__wrapper"></div>
+    <div class="popup__inner popup-zone">
+      <img src=".././assets/img/ic_close-modal.svg" alt="" class="popup__close">
+      <h3 class="popup-zone__title">Новая зона доступа</h3>
+      <form action="" class="popup-zone__form">
+        <div class="popup-zone__input-wrapper div-input">
+          <label for="tour-name" class="form-basic-data__tour-name">Номер зоны</label>
+          <input type="text" placeholder="Введите номер зоны" class="popup-zone__input-number-zone">
+        </div>
+        <div class="popup-zone__name-wrapper">
+          <input type="text" placeholder="Название зоны" class="popup-zone__input-name-zone">
+          <div class="popup-zone__wrapper-img"><img src=".././assets/img/ic_add-green.svg" alt=""></div>
+        </div>
+        <div class="popup-zone__list-zones">
+          <div class="popup-zone__item">
+            <span class="popup-zone__name">Ресторан</span>
+            <img src=".././assets/img/ic_close-brown.svg" alt="">
+          </div>
+          <div class="popup-zone__item">
+            <span class="popup-zone__name">Гостиница</span>
+            <img src=".././assets/img/ic_close-brown.svg" alt="">
+          </div>
+          <div class="popup-zone__item">
+            <span class="popup-zone__name">Душевая</span>
+            <img src=".././assets/img/ic_close-brown.svg" alt="">
+          </div>
+          <div class="popup-zone__item">
+            <span class="popup-zone__name">Бассейн</span>
+            <img src=".././assets/img/ic_close-brown.svg" alt="">
+          </div>
+          <div class="popup-zone__item">
+            <span class="popup-zone__name">Раздевалка</span>
+            <img src=".././assets/img/ic_close-brown.svg" alt="">
+          </div>
+          <div class="popup-zone__item">
+            <span class="popup-zone__name">Спортзал</span>
+            <img src=".././assets/img/ic_close-brown.svg" alt="">
+          </div>
+        </div>
+        <div class="popup-zone__btn-wrapper">
+          <button class="new-tournament__btn-create big-button"> <span class="big-button__text">Создать</span></button>
+        </div>
+      </form>
+
+    </div>
+  </div>
+
+</body>
+<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+
+</html>

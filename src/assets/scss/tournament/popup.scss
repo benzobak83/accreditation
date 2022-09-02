@@ -1,0 +1,185 @@
+
+.popup {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+    visibility: hidden;
+    opacity: 0;
+   
+    transition: all 0.4s;
+
+    &.active {
+        visibility: visible;
+        opacity: 1;
+       
+    }
+    
+    // .popup__wrapper
+
+   
+    // .popup__inner
+
+    &__inner {
+        width: 711px;
+        height: 527px;
+        background-color: white;
+        margin: 0 auto;
+        position: relative;
+        top: 50%;
+        transform: translate(0, -50%);
+        padding: 0px 20px;
+        box-sizing: border-box;
+    }
+
+    // .popup__close
+
+    &__close {
+        cursor: pointer;
+        position: absolute;
+        right: 24px;
+        top: 24px;
+    }
+}
+.popup-zone {
+
+    // .popup-zone__title
+
+    &__title {
+        font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 130%;
+color: black;
+padding-top: 24px;
+
+padding-bottom: 23.5px;
+box-sizing: border-box;
+    }
+
+    // .popup-zone__form
+
+    &__form {
+        .popup-zone__input-number-zone{
+            border-bottom: 1px solid;
+            border-color: #F1F1F1;
+            width: 310px;
+            padding-bottom: 7px;
+            margin-bottom: 20px;
+        }
+        .popup-zone__input-name-zone {
+            border: 1px solid #F1F1F1;
+            width: 266px;
+            padding: 9px 6px;
+            box-sizing: border-box;
+        }
+    }
+    
+    // .popup-zone__input-wrapper
+
+    &__input-wrapper {
+    }
+
+    // .popup-zone__name-wrapper
+
+    &__name-wrapper {
+        display: flex;
+    }
+
+    // .popup-zone__wrapper-img
+
+    &__wrapper-img {
+        width: 48px;
+        height: 100%;
+        background-color: #F1F1F1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            padding: 13px;
+            cursor: pointer;
+           
+        }
+    }
+
+    // .popup-zone__list-zones
+
+    &__list-zones {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 10px;
+        box-sizing: border-box;
+    }
+
+    // .popup-zone__item
+
+    &__item {
+        box-sizing: border-box;
+        flex: 0 1 18%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #F1F1F1;
+        padding: 10px 15px;
+        width: 123px;
+gap: 10px;
+margin-right: 10px;
+margin-top: 10px;
+
+    }
+
+    // .popup-zone__name
+
+    &__name {
+        font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 130%;
+color: black;
+
+text-align: center;
+    }
+    img {
+        margin-left: -6px;
+        cursor: pointer;
+    }
+    // .popup-zone__btn-wrapper
+
+    &__btn-wrapper {
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid #F1F1F1;
+    }
+}
+.div-input {
+}
+.form-basic-data {
+
+    // .form-basic-data__tour-name
+
+    &__tour-name {
+    }
+}
+.new-tournament {
+
+    // .new-tournament__btn-create
+
+    &__btn-create {
+    }
+}
+.big-button {
+
+    // .big-button__text
+
+    &__text {
+    }
+}

@@ -1,0 +1,144 @@
+.wrapper-auth {
+    width: 100%;
+    height: 100vh;
+    background: #d9d7e8;
+}
+
+.auth {
+    width: 900px;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    display: flex;
+
+
+    // .auth__content
+
+    &__content {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    // .auth__title
+
+    &__title {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 130%;
+        color: black;
+        box-sizing: border-box;
+        margin-bottom: 5px;
+    }
+
+    // .auth__form
+
+    &__form {
+        label {
+            font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 130%;
+        }
+        input {
+            border-bottom: 1px solid #F1F1F1F1;
+            &:focus {
+                border-bottom: 1px solid #00573A;
+            }
+        }
+        .password-visible {
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            right: 5px;
+            bottom: 9px;
+            cursor: pointer;
+        }
+    }
+
+    // .auth__form-div-input
+
+    &__form-div-input {
+        position: relative;
+        
+    }
+
+    // .auth__checkbox
+
+    &__checkbox {
+        display: none;
+    }
+
+    // .auth__checkbox-wrapper
+
+    &__checkbox-wrapper {
+        display: flex;
+        align-items: center;
+        margin-top: 23px;
+        margin-bottom: 23px;
+    }
+
+    // .auth__img-checkbox
+
+    &__img-checkbox {
+        margin-right: 5px;
+        cursor: pointer;
+    }
+
+    // .auth__checkbox-text
+
+    &__checkbox-text {
+        font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 130%;
+color: black;
+    }
+
+    // .auth__submit
+
+    &__submit {
+        cursor: pointer;
+    }
+
+    // .auth__bg
+
+    &__bg {
+        width: 50%;
+        height: 100%;
+        background: url('../../img/auth/bg_auth.png');
+    }
+}
+
+.wrapper {
+    max-width: 290px;
+    margin: 0 auto;
+
+}
+
+.form {}
+
+.div-input {}
+
+.form-basic-data {
+
+    // .form-basic-data__tour-name
+
+    &__tour-name {}
+
+    // .form-basic-data__tour-date
+
+    &__tour-date {}
+}
+
+.big-button {}

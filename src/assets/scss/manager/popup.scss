@@ -1,0 +1,111 @@
+
+.popup {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+    visibility: hidden;
+    opacity: 0;
+   
+    transition: all 0.4s;
+
+    &.active {
+        visibility: visible;
+        opacity: 1;
+       
+    }
+    
+    // .popup__wrapper
+
+   
+    // .popup__inner
+
+    &__inner {
+        width: 330px;
+height: 412px;
+        background-color: white;
+        margin: 0 auto;
+        position: relative;
+        top: 50%;
+        transform: translate(0, -50%);
+        padding: 0px 20px;
+        box-sizing: border-box;
+    }
+
+    // .popup__close
+
+    &__close {
+        cursor: pointer;
+        position: absolute;
+        right: 24px;
+        top: 24px;
+    }
+}
+
+
+
+// ---new styles----
+
+
+.popup {
+
+    // .popup__inner
+
+    &__inner {
+    }
+}
+.active {
+}
+.popup-manager {
+    .popup__inner {
+        height:482px;
+    }
+}
+.popup-zone {
+
+    // .popup-zone__title
+
+    &__title {
+        font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 130%;
+color: black;
+padding-top: 20.5px;
+    }
+}
+.auth {
+
+    // .auth__form
+
+    &__form {
+    }
+
+    // .auth__form-div-input
+
+    &__form-div-input {
+    }
+
+    // .auth__submit
+
+    &__submit {
+    }
+}
+.form {
+}
+.div-input {
+}
+.form-basic-data {
+
+    // .form-basic-data__tour-name
+
+    &__tour-name {
+    }
+}
+.big-button {
+    margin-top: 35px;
+}
+

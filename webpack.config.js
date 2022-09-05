@@ -31,7 +31,7 @@ module.exports = {
   output: {
     filename: "js/[name].[hash].js",
     path: path.resolve(__dirname, "dist"),
-    publicPath: isDev ? "" : "",
+    publicPath: isDev ? "/" : "/",
   },
 
   devServer: {
@@ -53,93 +53,84 @@ module.exports = {
     new Dotenv(),
     new HtmlWebpackPlugin({
       // добавляем в компиляцию html
-      filename: 'tournament.html',
+      filename: "tournament.html",
       template: path.resolve(__dirname, "./src/pages/tournament.html"), // указываем файл html, который будет базовым
       minify: {
         collapseWhitespace: isProd,
       },
-      chunks:['tournament']
-
+      chunks: ["tournament"],
     }),
     new HtmlWebpackPlugin({
       // добавляем в компиляцию html
-      filename: 'roles/zones.html',
+      filename: "roles/zones.html",
       template: path.resolve(__dirname, "./src/pages/roles-zones.html"), // указываем файл html, который будет базовым
       minify: {
         collapseWhitespace: isProd,
       },
-      chunks:['rolesZones']
-
+      chunks: ["rolesZones"],
     }),
     new HtmlWebpackPlugin({
       // добавляем в компиляцию html
-      filename: 'index.html',
+      filename: "index.html",
       template: path.resolve(__dirname, "./src/pages/main.html"), // указываем файл html, который будет базовым
       minify: {
         collapseWhitespace: isProd,
       },
-      chunks:['main']
-
+      chunks: ["main"],
     }),
     new HtmlWebpackPlugin({
       // добавляем в компиляцию html
-      filename: 'manager.html',
+      filename: "manager.html",
       template: path.resolve(__dirname, "./src/pages/manager.html"), // указываем файл html, который будет базовым
       minify: {
         collapseWhitespace: isProd,
       },
-      chunks:['manager']
-
+      chunks: ["manager"],
     }),
     new HtmlWebpackPlugin({
       // добавляем в компиляцию html
-      filename: 'auth.html',
+      filename: "auth.html",
       template: path.resolve(__dirname, "./src/pages/auth.html"), // указываем файл html, который будет базовым
       minify: {
         collapseWhitespace: isProd,
       },
-      chunks:['auth']
-
+      chunks: ["auth"],
     }),
     new HtmlWebpackPlugin({
       // добавляем в компиляцию html
-      filename: 'roles.html',
+      filename: "roles.html",
       template: path.resolve(__dirname, "./src/pages/roles.html"), // указываем файл html, который будет базовым
       minify: {
         collapseWhitespace: isProd,
       },
-      chunks:['roles']
-
+      chunks: ["roles"],
     }),
     new HtmlWebpackPlugin({
       // добавляем в компиляцию html
-      filename: 'accredit.html',
+      filename: "accredit.html",
       template: path.resolve(__dirname, "./src/pages/accredit.html"), // указываем файл html, который будет базовым
       minify: {
         collapseWhitespace: isProd,
       },
-      chunks:['accredit']
-
+      chunks: ["accredit"],
     }),
     new HtmlWebpackPlugin({
       // добавляем в компиляцию html
-      filename: 'accredit/edit.html',
+      filename: "accredit-edit.html",
       template: path.resolve(__dirname, "./src/pages/accredit-edit.html"), // указываем файл html, который будет базовым
       minify: {
         collapseWhitespace: isProd,
       },
-      chunks:['accreditEdit']
-
+      chunks: ["accreditEdit"],
     }),
     new HtmlWebpackPlugin({
       // добавляем в компиляцию html
-      filename: 'bagick.html',
+      filename: "bagick.html",
       template: path.resolve(__dirname, "./src/pages/bagick.html"), // указываем файл html, который будет базовым
       minify: {
         collapseWhitespace: isProd,
       },
-      chunks:['bagick']
-
+      chunks: ["bagick"],
     }),
     new CleanWebpackPlugin(), // очищаем корневую папку dist от неактуальных файлов
     // new CopyWebpackPlugin({ // копируем статичные файлы

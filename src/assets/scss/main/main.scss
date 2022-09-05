@@ -1,154 +1,155 @@
-
-
-.wrapper-main {}
+.wrapper-main {
+}
 
 .main {
+  // .main__inner
 
-    // .main__inner
+  &__inner {
+  }
 
-    &__inner {}
+  // .main__buttons
 
-    // .main__buttons
+  &__buttons {
+    display: flex;
+    margin-top: 40px;
+  }
 
-    &__buttons {
-        display: flex;
-        margin-top: 40px;
+  // .main__btn-contacts
+
+  &__btn-contacts {
+    margin-right: 10px;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 130%;
+    color: #00573a;
+    background: #f1f1f1;
+    margin-bottom: 20px;
+
+    img {
+      margin-right: 5px;
     }
+  }
 
-    // .main__btn-contacts
+  // .main__btn-create
 
-    &__btn-contacts {
-        margin-right: 10px;
-        font-family: 'Gilroy';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 130%;
-        color: #00573A;
-        background: #F1F1F1;
-        margin-bottom: 20px;
+  &__btn-create {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 130%;
+    color: #ffffff;
 
-        img {
-            margin-right: 5px;
-        }
+    img {
+      margin-right: 5px;
     }
-
-    // .main__btn-create
-
-    &__btn-create {
-        font-family: 'Gilroy';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 130%;
-        color: #FFFFFF;
-
-        img {
-            margin-right: 5px;
-        }
-    }
+  }
 }
 
 .big-button {
+  // .big-button__img
 
-    // .big-button__img
+  &__img {
+  }
 
-    &__img {}
+  // .big-button__text
 
-    // .big-button__text
-
-    &__text {}
+  &__text {
+  }
 }
 
 .statistics {
-    width: 777px;
-    height: 126px;
-    border: 1px solid;
-    border-color: #F1F1F1;
-    margin-bottom: 44px;
-    
-    // .statistics__inner
+  width: 777px;
+  height: 126px;
+  border: 1px solid;
+  border-color: #f1f1f1;
+  margin-bottom: 44px;
 
-    &__inner {
-        width: 100%;
-        height: 100%;
-        display: flex;
+  // .statistics__inner
+
+  &__inner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
+
+  // .statistics__item
+
+  &__item {
+    height: 100%;
+    flex: 0 1 23%;
+    padding: 25px 35px 35px 25px;
+    box-sizing: border-box;
+    position: relative;
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 130%;
+    img {
+      margin-right: 10px;
+    }
+    &:not(:last-child):after {
+      content: "";
+      height: 100px;
+      border-right: 2px solid #f1f1f1;
+      position: absolute;
+      top: 13px;
+      right: 0px;
     }
 
-    // .statistics__item
+    // .statistics__item_dark-blue
 
-    &__item {
-        height: 100%;
-        flex: 0 1 23%;
-        padding: 25px 35px 35px 25px;
-        box-sizing: border-box;
-        position: relative;
-        font-family: 'Gilroy';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 130%;
-img {
-    margin-right: 10px;
-}
-        &:not(:last-child):after {
-            content: '';
-            height: 100px;
-            border-right: 2px solid #F1F1F1;
-            position: absolute;
-            top: 13px;
-            right: 0px;
-        }
-        
-        // .statistics__item_dark-blue
-
-        &_dark-blue {
-            color: #2E47CA;
-        }
-
-        // .statistics__item_blue
-
-        &_blue {
-            color: #1E87FA;
-        }
-
-        // .statistics__item_green
-
-        &_green {
-            color: #15AA1B;
-        }
-
-        // .statistics__item_orange
-
-        &_orange {
-            color: #F07923;
-        }
+    &_dark-blue {
+      color: #2e47ca;
     }
 
-    // .statistics__title
+    // .statistics__item_blue
 
-    &__title {
-        display: flex;
+    &_blue {
+      color: #1e87fa;
     }
 
-    // .statistics__img
+    // .statistics__item_green
 
-    &__img {}
-
-    // .statistics__name
-
-    &__name {
-        white-space: nowrap;
+    &_green {
+      color: #15aa1b;
     }
 
-    // .statistics__count
+    // .statistics__item_orange
 
-    &__count {
-        font-family: 'Gilroy';
-font-style: normal;
-font-weight: 700;
-font-size: 34px;
-line-height: 130%;
-margin-top: 10px;
+    &_orange {
+      color: #f07923;
     }
+  }
+
+  // .statistics__title
+
+  &__title {
+    display: flex;
+  }
+
+  // .statistics__img
+
+  &__img {
+  }
+
+  // .statistics__name
+
+  &__name {
+    white-space: nowrap;
+  }
+
+  // .statistics__count
+
+  &__count {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 130%;
+    margin-top: 10px;
+  }
 }

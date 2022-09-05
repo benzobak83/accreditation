@@ -8272,7 +8272,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, ".manager-btn{margin-top:40px}.manager-
 
 /***/ }),
 
-/***/ 8395:
+/***/ 8382:
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -8288,7 +8288,30 @@ ___CSS_LOADER_EXPORT___.push([module.id, ".manager-btn{margin-top:40px}.manager-
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".popup{position:fixed;width:100vw;height:100vh;top:0;left:0;background:rgba(0,0,0,.3);visibility:hidden;opacity:0;transition:all .4s}.popup.active{visibility:visible;opacity:1}.popup__inner{width:330px;height:412px;background-color:#fff;margin:0 auto;position:relative;top:50%;transform:translate(0, -50%);padding:0px 20px;box-sizing:border-box}.popup__close{cursor:pointer;position:absolute;right:24px;top:24px}.popup-manager .popup__inner{height:482px}.popup-zone__title{font-family:\"Gilroy\";font-style:normal;font-weight:600;font-size:24px;line-height:130%;color:#000;padding-top:20.5px}.big-button{margin-top:35px}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, ".popup{position:fixed;width:100vw;height:100vh;top:0;left:0;background:rgba(0,0,0,.3);visibility:hidden;opacity:0;transition:all .4s}.popup.active{visibility:visible;opacity:1}.popup__inner{width:330px;height:478px;background-color:#fff;margin:0 auto;position:relative;top:50%;transform:translate(0, -50%);padding:0px 20px;box-sizing:border-box}.popup__close{cursor:pointer;position:absolute;right:24px;top:24px}.popup-zone__title{font-family:\"Gilroy\";font-style:normal;font-weight:600;font-size:24px;line-height:130%;color:#000;padding-top:20.5px}#color{display:none}.colors{display:flex;flex-wrap:wrap;justify-content:flex-start;align-items:center;margin-top:10px}.colors__item-wrapper{cursor:pointer;width:40px;height:40px;background:#1fc543;margin-right:10px;margin-bottom:10px;box-sizing:border-box}.colors__item-wrapper:nth-child(2){background:#d0ef53}.colors__item-wrapper:nth-child(3){background:#e9e010}.colors__item-wrapper:nth-child(4){background:#f7c441}.colors__item-wrapper:nth-child(5){background:#f7c441}.colors__item-wrapper:nth-child(6){margin-right:0px;background:#4154f7}.colors__item-wrapper:nth-child(7){background:#b241f7}.colors__item-wrapper:nth-child(8){background:#ef6f53}.colors__item-wrapper:nth-child(9){background:#10e9b5}.colors__item-wrapper:nth-child(10){background:#f741da}.colors__item-wrapper:nth-child(11){background:#bdf741}.colors__item-wrapper:nth-child(12){margin-right:0px;background:#70a717}.colors__item-wrapper.active{display:flex;justify-content:center;align-items:center}.colors__item-wrapper.active>.colors__item{width:34px;height:34px;border:1px solid #fff}.label-zone{margin-top:5px}.zones{display:flex;flex-wrap:wrap;justify-content:flex-start;align-items:center;margin-bottom:30px;position:relative}.zones label{max-width:40px;max-height:40px;margin-right:10px;margin-top:10px}.zones label:nth-child(6){margin-right:0px}.zones label:nth-child(12){margin-right:0px}.zones input{display:none}.zones__item-wrapper{cursor:pointer;width:40px;height:40px;background:#999;display:flex;justify-content:center;align-items:center;box-sizing:border-box}.zones__item-wrapper::after{visibility:hidden;opacity:0;transition:all .3s;content:\"Бассейн, душ, ресторан, гостиница, VIP - зал, спортзал, такси\";background:rgba(50,50,50,.75);padding:10px;color:#fff;position:absolute;top:-30px;left:-80px;width:432px;font-family:\"Gilroy\";font-style:normal;font-weight:400;font-size:14px;line-height:130%}.zones__item-wrapper:hover:after{visibility:visible;opacity:1;transition:all .3s;content:\"Бассейн, душ, ресторан, гостиница, VIP - зал, спортзал, такси\";background:rgba(50,50,50,.75);padding:10px;color:#fff;position:absolute;top:-30px;left:-80px;width:432px;font-family:\"Gilroy\";font-style:normal;font-weight:400;font-size:14px;line-height:130%}.zones__item-wrapper.active{display:flex;justify-content:center;align-items:center;background:#00573a}.zones__item-wrapper.active>.zones__item{width:34px;height:34px;border:1px solid #fff;background:#00573a}.zones__item{font-family:\"Gilroy\";font-style:normal;font-weight:600;font-size:14px;line-height:130%;color:#fff;display:flex;justify-content:center;align-items:center}.popup-edit-role .popup__inner{height:420px}.popup-edit-role .popup__btns{margin-top:30px;box-sizing:border-box}.popup-edit-role .btn-delete{margin-top:10px}", ""]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ 7387:
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(8081);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(3645);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, ".table-search__td-code{font-family:\"Gilroy\";font-style:normal;font-weight:400;font-size:16px;line-height:130%;color:#999;margin-left:8px;box-sizing:border-box}.td-color{width:24px}.table-search__td-color{display:flex;justify-content:center;align-items:center;width:24px;height:24px;background-color:red}.table-search__th.color-th{padding-left:14px}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -9655,7 +9678,7 @@ module.exports = __webpack_require__.p + "assets/images/menu-bg-4293c6d4b387997f
 /******/ 	
 /******/ 	/* webpack/runtime/publicPath */
 /******/ 	(() => {
-/******/ 		__webpack_require__.p = "/";
+/******/ 		__webpack_require__.p = "./";
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/jsonp chunk loading */
@@ -9666,7 +9689,7 @@ module.exports = __webpack_require__.p + "assets/images/menu-bg-4293c6d4b387997f
 /******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
 /******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = {
-/******/ 			873: 0
+/******/ 			438: 0
 /******/ 		};
 /******/ 		
 /******/ 		// no chunk on demand loading
@@ -9855,9 +9878,40 @@ var manager_update = injectStylesIntoStyleTag_default()(manager/* default */.Z, 
 
        /* harmony default export */ const manager_manager = (manager/* default */.Z && manager/* default.locals */.Z.locals ? manager/* default.locals */.Z.locals : undefined);
 
-// EXTERNAL MODULE: ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/assets/scss/manager/popup.scss
-var popup = __webpack_require__(8395);
-;// CONCATENATED MODULE: ./src/assets/scss/manager/popup.scss
+// EXTERNAL MODULE: ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/assets/scss/roles/roles.scss
+var roles = __webpack_require__(7387);
+;// CONCATENATED MODULE: ./src/assets/scss/roles/roles.scss
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+var roles_options = {};
+
+roles_options.styleTagTransform = (styleTagTransform_default());
+roles_options.setAttributes = (setAttributesWithoutAttributes_default());
+
+      roles_options.insert = insertBySelector_default().bind(null, "head");
+    
+roles_options.domAPI = (styleDomAPI_default());
+roles_options.insertStyleElement = (insertStyleElement_default());
+
+var roles_update = injectStylesIntoStyleTag_default()(roles/* default */.Z, roles_options);
+
+
+
+
+       /* harmony default export */ const roles_roles = (roles/* default */.Z && roles/* default.locals */.Z.locals ? roles/* default.locals */.Z.locals : undefined);
+
+// EXTERNAL MODULE: ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/assets/scss/roles/popup.scss
+var popup = __webpack_require__(8382);
+;// CONCATENATED MODULE: ./src/assets/scss/roles/popup.scss
 
       
       
@@ -9884,7 +9938,33 @@ var popup_update = injectStylesIntoStyleTag_default()(popup/* default */.Z, popu
 
 
 
-       /* harmony default export */ const manager_popup = (popup/* default */.Z && popup/* default.locals */.Z.locals ? popup/* default.locals */.Z.locals : undefined);
+       /* harmony default export */ const roles_popup = (popup/* default */.Z && popup/* default.locals */.Z.locals ? popup/* default.locals */.Z.locals : undefined);
+
+;// CONCATENATED MODULE: ./src/js/ts/popup.ts
+var popup_popup = function popup(selectorTrigger, selectorPopup, selectorClose) {
+  var triggers = document.querySelectorAll(selectorTrigger),
+      popup = document.querySelector(selectorPopup),
+      btnClose = document.querySelectorAll(selectorClose);
+
+  var openPopup = function openPopup() {
+    popup.classList.add("active");
+    console.log(1);
+  };
+
+  var closePopup = function closePopup(e) {
+    e.target.closest(".popup").classList.remove("active");
+  };
+
+  triggers.forEach(function (trigger) {
+    return trigger.addEventListener("click", openPopup);
+  });
+  btnClose.forEach(function (item) {
+    return item.addEventListener("click", function (e) {
+      return closePopup(e);
+    });
+  });
+};
+
 
 ;// CONCATENATED MODULE: ./src/assets/img/ic_arrow-bottom-green.svg
 const ic_arrow_bottom_green_namespaceObject = __webpack_require__.p + "assets/images/ic_arrow-bottom-green-d3c2deb649739ff2522e.svg";
@@ -9915,33 +9995,48 @@ var thArrow = function thArrow(selectorTh, selectorImg) {
 };
 
 
-;// CONCATENATED MODULE: ./src/js/ts/popup.ts
-var popup_popup = function popup(selectorTrigger, selectorPopup, selectorClose) {
-  var triggers = document.querySelectorAll(selectorTrigger),
-      popup = document.querySelector(selectorPopup),
-      btnClose = document.querySelectorAll(selectorClose);
+;// CONCATENATED MODULE: ./src/js/ts/roles/zones.ts
+var zones = function zones(triggerSelector, classForActive) {
+  var triggers = document.querySelectorAll(triggerSelector);
 
-  var openPopup = function openPopup() {
-    popup.classList.add("active");
-    console.log(1);
-  };
-
-  var closePopup = function closePopup(e) {
-    e.target.closest(".popup").classList.remove("active");
+  var handleClick = function handleClick(e) {
+    e.target.classList.contains("zones__item-wrapper") ? e.target.classList.toggle("active") : e.target.parentNode.classList.toggle("active");
   };
 
   triggers.forEach(function (trigger) {
-    return trigger.addEventListener("click", openPopup);
-  });
-  btnClose.forEach(function (item) {
-    return item.addEventListener("click", function (e) {
-      return closePopup(e);
+    return trigger.addEventListener("click", function (e) {
+      return handleClick(e);
     });
   });
 };
 
 
-;// CONCATENATED MODULE: ./src/js/manager.js
+;// CONCATENATED MODULE: ./src/js/ts/roles/colors.ts
+var colors = function colors(triggerSelector, inputSelector) {
+  var triggers = document.querySelectorAll(triggerSelector);
+  var input = document.querySelector(inputSelector);
+
+  var handleClick = function handleClick(e) {
+    triggers.forEach(function (div) {
+      div.classList.contains("active") ? div.classList.remove("active") : null;
+    });
+    e.target.classList.contains("colors__item-wrapper") ? e.target.classList.toggle("active") : e.target.parentNode.classList.toggle("active");
+    var color = window.getComputedStyle(e.target).backgroundColor;
+    input.value = color;
+  };
+
+  triggers.forEach(function (triger) {
+    return triger.addEventListener("click", function (e) {
+      return handleClick(e);
+    });
+  });
+};
+
+
+;// CONCATENATED MODULE: ./src/js/roles.js
+
+
+
 
 
 
@@ -9952,8 +10047,10 @@ var popup_popup = function popup(selectorTrigger, selectorPopup, selectorClose) 
 
 document.addEventListener('DOMContentLoaded', e => {
   thArrow('.table-th');
-  popup_popup('#ic_edit', '.popup-detalis', '.popup__close');
-  popup_popup('.new-tournament__btn-create', '.popup-manager', '.popup__close');
+  zones('.zones__item-wrapper');
+  colors('.colors__item-wrapper', '#color');
+  popup_popup('.roles-btn', '.popup-new-role', '.popup__close');
+  popup_popup('#ic_edit', '.popup-edit-role', '.popup__close');
 });
 })();
 
